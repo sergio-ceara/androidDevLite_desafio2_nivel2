@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btnCadastroAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/green_lime"
+            style="@style/CustomButton"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="20dp"
+            android:text="@string/txtCadastroAluno" />
+
+        <Button
+            android:id="@+id/btnCadastroTurma"
+            android:backgroundTint="@color/orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomButton"
+            android:text="@string/txtCadastroTurma" />
+
+        <Button
+            android:id="@+id/btnCadastroNota"
+            android:backgroundTint="@color/red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/CustomButton"
+            android:text="@string/txtCadastroNota" />
+
+        <Button
+            android:id="@+id/btnConsultaAlunosPorTurma"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_blue"
+            style="@style/CustomButton"
+            android:text="@string/txtConsultaAlunoTurma" />
+
+        <Button
+            android:id="@+id/btnConsultaNotasPorAluno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple4"
+            style="@style/CustomButton"
+            android:text="@string/txtConsultaNotaAluno" />
+
+        <Button
+            android:id="@+id/btnTabelasLimpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            style="@style/CustomButton"
+            android:textSize="18sp"
+            android:text="@string/txtReiniciarSistema" />
+
+    </LinearLayout>
+</ScrollView>

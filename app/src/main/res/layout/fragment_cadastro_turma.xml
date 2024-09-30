@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtCadastroTurma"
+        android:textSize="25sp"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/editTextNomeTurma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtTurmaDescricaoHint"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:textAlignment="center"
+        android:text="@string/txtTurmaDescricaoText"/>
+
+    <Button
+        android:id="@+id/btnSalvarTurma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSalvar"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp" />
+
+    <ListView
+        android:id="@+id/listViewTurmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

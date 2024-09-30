@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/darker_gray3"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtNotaAlteracaoText"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue1"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextAlterarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:hint="@string/txtAlunoNotaHint"
+        android:inputType="numberDecimal"
+        android:textAlignment="textEnd"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text" />
+</LinearLayout>

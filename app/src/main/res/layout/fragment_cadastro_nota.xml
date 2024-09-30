@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:text="@string/txtCadastroNota"/>
+    <EditText
+        android:id="@+id/editTextFiltroAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtFiltraAlunoHint"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+        <ListView
+            android:id="@+id/listViewAlunos"
+            android:background="@color/darker_gray3"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/textAlunoSelecionado"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:gravity="center|left"
+            android:layout_weight="2"
+            android:text="@string/txtAlunoSelecionadoText"
+            android:background="@drawable/border_textview"
+            android:textStyle="bold"
+            android:padding="8dp" />
+        <EditText
+            android:id="@+id/editTextNota"
+            android:layout_width="wrap_content"
+            android:layout_height="40sp"
+            android:layout_weight="1"
+            android:hint="@string/txtAlunoNotaHint"
+            android:inputType="numberDecimal"
+            android:textSize="16sp"
+            android:background="@android:drawable/edit_text"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSalvarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSalvar"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp" />
+
+    <ListView
+        android:id="@+id/listViewNotas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="5dp" />
+</LinearLayout>

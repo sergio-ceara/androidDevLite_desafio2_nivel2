@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextAlterarNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtFiltroAlunoHint"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        android:background="@android:drawable/edit_text" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtAlunoNomeText"
+        android:textSize="15sp"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/spinnerAlterarTurma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textSpinnerTurmaAlteracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/txtAlunoTurmaText"/>
+
+</LinearLayout>

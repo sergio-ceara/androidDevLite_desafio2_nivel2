@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">desafio2_nivel2_teste3</string>
+    <dimen name="text_head_size_small">14sp</dimen>
+    <string name="txtHeader2">AndroidDev Lite:</string>
+    <string name="txtHeader3">Desafio 2</string>
+    <string name="txtHeader4">nível 2:</string>
+    <string name="txtHeader5">Matrícula de alunos</string>
+    <string name="txtHeader6">aluno:</string>
+    <string name="txtHeader7">Paulo Sérgio Ferreira de Sousa</string>
+
+    <string name="txtCadastroAluno">Cadastro de Aluno</string>
+    <string name="txtCadastroTurma">Cadastro de Turma</string>
+    <string name="txtCadastroNota">Cadastro de Nota</string>
+    <string name="txtConsultaAlunoTurma">Consulta de Alunos por Turma</string>
+    <string name="txtConsultaNotaAluno">Consulta de Notas por Aluno</string>
+    <string name="txtReiniciarSistema">Limpar tabelas (reiniciar sistema)</string>
+
+    <string name="buttonTelaPrincipal">Tela principal</string>
+    <string name="buttonSalvar">Salvar</string>
+    <string name="txtFiltroAlunoHint">Digite o nome do aluno</string>
+    <string name="txtNotaAlteracaoText">Alteração de nota</string>
+    <string name="txtTurmaAlteracaoText">Digite o nome da turma</string>
+
+    <string name="txtAlunoNomeHint">Digite o nome do aluno</string>
+    <string name="txtAlunoNomeText">nome</string>
+    <string name="txtAlunoTurmaText">escolha a turma</string>
+
+    <string name="txtTurmaDescricaoHint">Digite a descrição da turma</string>
+    <string name="txtTurmaDescricaoText">descrição</string>
+
+    <string name="txtFiltraAlunoHint">Filtrar alunos</string>
+    <string name="txtAlunoSelecionadoText">Aluno selecionado</string>
+    <string name="txtAlunoNotaHint">Nota</string>
+
+    <string name="txtTurmasTxt">Turmas disponíveis</string>
+    <string name="txtFiltroAlunoTxt">Filtrar por nome de aluno</string>
+
+</resources>

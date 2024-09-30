@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtConsultaAlunoTurma"
+        android:textSize="23sp"
+        android:background="@color/blue2"
+        android:textColor="@color/white"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtTurmasTxt"
+        android:textSize="13sp"
+        android:textAlignment="textStart"/>
+
+    <ListView
+        android:id="@+id/listViewTurmas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:background="@color/darker_gray3"
+        android:dividerHeight="1dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtFiltroAlunoTxt"
+        android:textSize="13sp"
+        android:textAlignment="textStart"/>
+    <EditText
+        android:id="@+id/editTextFiltroAluno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/txtFiltroAlunoHint"
+        android:inputType="text"
+        android:textSize="15sp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="1dp" />
+
+    <ListView
+        android:id="@+id/listViewAlunos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
